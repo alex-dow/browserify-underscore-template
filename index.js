@@ -1,7 +1,7 @@
 var _ = require('underscore');
 var transformTools = require('browserify-transform-tools');
 
-module.exports = transformTools.makeStringTransform('underscore-templates', null, function(content, transformOptions, done) {
+module.exports = transformTools.makeStringTransform('underscore-template', null, function(content, transformOptions, done) {
   var fn = transformOptions.file;
   var ext = transformOptions.config.ext;
 
