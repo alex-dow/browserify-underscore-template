@@ -11,7 +11,7 @@ templates/view.html:
 
 src/view.js
 ```javascript
-var tpl = require('./templates/test.html');
+var tpl = require('../templates/test.html');
 
 console.log(tpl({
   title: 'This is a test title'
