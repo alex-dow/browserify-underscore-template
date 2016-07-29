@@ -1,0 +1,31 @@
+{
+  "name": "browserify-underscore-template",
+  "version": "0.0.2",
+  "description": "Browserify tool to transform underscore templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-dow/browserify-underscore-templates.git"
+  },
+  "keywords": [
+    "underscore",
+    "template",
+    "browersify-transform",
+    "transform"
+  ],
+  "author": "Alex Dowgailenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alex-dow/browserify-underscore-templates/issues"
+  },
+  "homepage": "https://github.com/alex-dow/browserify-underscore-templates#readme",
+  "devDependencies": {
+    "browserify-transform-tools": "^1.6.0"
+  },
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
+}
