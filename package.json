@@ -1,6 +1,6 @@
 {
   "name": "browserify-underscore-template",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Browserify tool to transform underscore templates",
   "main": "index.js",
   "scripts": {
@@ -22,10 +22,8 @@
     "url": "https://github.com/alex-dow/browserify-underscore-templates/issues"
   },
   "homepage": "https://github.com/alex-dow/browserify-underscore-templates#readme",
-  "devDependencies": {
-    "browserify-transform-tools": "^1.6.0"
-  },
   "dependencies": {
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "browserify-transform-tools": "^1.6.0"
   }
 }
